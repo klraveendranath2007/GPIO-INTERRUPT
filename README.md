@@ -64,21 +64,8 @@ Combine a GPIO interrupt with a timer-based delay to implement non-blocking swit
 
 
 ## OUTPUT
+<img width="600" height="540" alt="IMG_20260918_074624 (1)" src="https://github.com/user-attachments/assets/41b314b1-668e-42ff-8b1f-1b4236d70ad4" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
----
 ## Result
 
 The **GPIO interrupt combined with a timer-based non-blocking debounce** was successfully implemented. The switch bounce was effectively filtered, preventing **false triggering**, while the **main loop continued to execute without blocking** during the debounce period. Thus, reliable switch operation and non-blocking program execution were successfully verified.
